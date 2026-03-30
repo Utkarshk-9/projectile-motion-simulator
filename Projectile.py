@@ -17,3 +17,9 @@ while True:
     if y < 0: 
         break #Break the loop when object hits the ground
     t += dt ## Moves time forward in small steps to approximate continuous motion
+Hmax = (vy ** 2) / (2 * g)
+Tf = (2 * vy) / g
+Range = (vx *t)
+print(f"Maximum Height- {Hmax:.2f}m ")
+print(f"Time Of Flight- {Tf:.2f}s ")
+print(f"Total Horizontal Distance- {Range:.2f}m ")
